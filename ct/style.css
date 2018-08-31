@@ -1,0 +1,263 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.ct_name, h1 {
+    color: #36456D;
+    font-family: sans-serif;
+    font-variant: small-caps;
+}
+
+.ct_name {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    bottom: 85px;
+    margin-left: 10px;
+    }
+
+.menu {
+    list-style-type: none;
+    float: right;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.header {
+    height: 160px;
+    background-image: url(pictires/background_header.png);
+}
+
+.header a:hover {
+    color: #408140;
+}
+
+.ct_logo {
+    position: relative;
+    left: 10px;
+}
+
+.menu li a {
+    color: #A15151;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+
+#hello {
+    color: #4d4d4d;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+
+}
+
+.product_header {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    margin-top: 0;
+}
+
+.main_block_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    
+}
+
+
+.short_block {
+    width: 100%;
+    margin-left: 10px;
+    
+}
+
+#buy {
+    display: block;
+    width: 100px;
+    height: 40px;
+    background:  linear-gradient(#F3AE0F, #E38916) #E38916;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    line-height: 40px;
+    float: right;
+}
+
+#buy:hover {
+    background: linear-gradient(#f5ae00, #f59500) #f5ae00; 
+}
+
+#buy:active {
+    background: linear-gradient(#f59500, #f5ae00) #f59500;
+}
+
+.short_description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.short_description:first-letter {
+    color: #a15151;
+    font-size: 20px;
+}
+
+.detailed_description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.detailed_description:first-letter {
+    color: #a15151;
+    font-size: 30px; 
+}
+
+.product_specs {
+    color: #408140;
+    font-family: Arial, serif;
+    font-size: 20px;
+    list-style-image: url(pictires/marker_ball.png)
+}
+
+table {
+    border: 2px solid #36456d;
+    border-collapse: collapse;
+}
+
+td {
+    color: #408140;
+    font-size: 20px;
+    font-family: Arial, serif;
+    border: 2px solid #36456d;
+}
+
+.custom_height {
+    height: 36px;
+}
+
+.review, #address, .ct_adds {
+    color: #4d4d4d;
+    font-family: Roboto, sans-serif;
+}
+
+.catalog_block {
+    width: 100%;
+    float: left;
+}
+
+.productUnit {
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 20%;
+}
+
+.productUnit:nth-child(3n) {
+    margin-right: 0;
+}
+
+.product_image_1 {
+    border: 2px #36456d solid;
+    width: 250px;
+    height: 250px;
+}
+
+.product_image_1:hover {
+    border: 2px #eaeaea solid; 
+}
+
+.product_name, label {
+    color: #4d4d4d;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.product_name {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.product_name:first-letter {
+    color: #a15151;
+    font-size: 20px; 
+}
+
+.product_name a {
+    color: #a15151;
+}
+
+legend, input[type="submit"] {
+    color: #408140;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.data_input, #my_message  {
+    color: #a15151;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+input[type="email"]:focus {
+    color: #eaeaea;
+    background: #484343;
+}
+
+.data_input {
+    width: 300px;
+    height: 20px;
+}
+
+#my_message {
+    width: 300px;
+    height: 60px;
+}
+
+
+.script_map {
+    width: 100%;
+    height: 374px;
+}
+
+.footer {
+    height: 50px;
+    background: #36456d;
+    color: #f8f8f8;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    clear: both;
+}
+
+.copyright {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
