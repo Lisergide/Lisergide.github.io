@@ -72,7 +72,7 @@
                             </div>
                             <p class="cart-total">TOTAL <span>$500.00</span></p>
                             <a href="checkout.html" class="button-checkout">Checkout</a>
-                            <a href="shopping_cart.html" class="button-go_to_cart">Go to cart</a>
+                            <a href="#" class="button-go_to_cart">Go to cart</a>
                         </div>
                     </div>
                 </div>
@@ -141,177 +141,76 @@
             <li><a href="#">Hot Deals</a></li>
         </ul>
     </nav>
-    <div class="slider">
-        <div class="container slider-back">
-            <div class="pink-block"></div>
-            <div class="slider-text">
-                <h2 class="brand-title-1">THE BRAND</h2>
-                <h3 class="brand-title-2">OF LUXERIOUS <span>FASHION</span></h3>
-            </div>
+    <div class="breadcrumb">
+        <div class="container breadcrumb-flex">
+            <h3 class="breadcrumb-name">New Arrivals</h3>
+            <nav class="breadcrumb-nav">
+                <ul class="breadcrumb-menu">
+                    <li><a class="not-active-title" href="#">HOME</a>/</li>
+                    <li><a class="not-active-title" href="#">MAN</a>/</li>
+                    <li><a class="active-title" href="#">NEW ARRIVALS</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
-    <main class="container">
-        <div class="tizer-block">
-            <div class="tizer-block-left">
-                <a href="#" class="hot-deal-men">
-                    <div class="ho-deal-title">
-                        <span class="tizer-title-1">hot deal</span><br>
-                        <span class="tizer-title-2">for men</span>
+    <main class="container shipping_box">
+        <div class="shipping_adress">
+            <h3 class="shipping_title">01. Shipping Adress</h3>
+            <div class="shipping_adress_flex">
+                <div class="shipping_adress_left">
+                    <p class="shipping_title_1">Check as a guest or register</p>
+                    <p class="shipping_title_2">Register with us for future convenience</p>
+                    <div class="radi_register_box">
+                        <input class="radio" id="guest" name="registry" type="radio" value="guest">
+                        <label for="guest" class="label-checkout-title">checkout as guest</label><br>
+                        <input class="radio" id="register" name="registry" type="radio" value="register">
+                        <label for="register" class="label-checkout-title">register</label>
                     </div>
-                </a>
-                <a href="#" class="accesories">
-                    <div class="accesories-title">
-                        <span class="tizer-title-1">LUXIROUS & trendy</span><br>
-                        <span class="tizer-title-2">ACCESORIES</span>
+                    <p class="shipping_title_1">register and save time!</p>
+                    <p class="shipping_title_2">Register with us for future convenience</p>
+                    <div class="shipping-link-box">
+                        <a class="shipping-link" href="#"><i class="fas fa-angle-double-right"></i>Fast and easy checkout</a><br>
+                        <a class="shipping-link" href="#"><i class="fas fa-angle-double-right"></i>Easy access to your order history and status</a>
                     </div>
-                </a>
+
+                    <a class="burron-continue" href="#">Continue</a>
+                </div>
+                <div class="shipping_adress-right">
+                    <p class="shipping_title_1">Already registed?</p>
+                    <p class="shipping_title_2">Please log in below</p>
+                    <form action="#" class="entry-form">
+                        <label class="entry_field_title" for="e-mail"> EMAIL ADDRESS <span>*</span></label><br>
+                        <input class="entry_field" type="email" id="e-mail"><br>
+                        <label class="entry_field_title" for="pass"> PASSWORD <span>*</span></label><br>
+                        <input class="entry_field" type="password" id="pass">
+                        <p class="required_field">* Required Fileds</p>
+                        <button class="button-log-in" type="submit">Log in</button>
+                        <span class="forgot-pass">Forgot Password ?</span>
+                    </form>
+                </div>
             </div>
-            <div class="tizer-block-right">
-                <a href="#" class="offer-women">
-                    <div class="offer-women-title">
-                        <span class="tizer-title-1">30% offer</span><br>
-                        <span class="tizer-title-2">women</span>
-                    </div>
-                </a>
-                <a href="#" class="new-arrivals-kids">
-                    <div class="new-arrivals-title">
-                        <span class="tizer-title-1">new arrivals</span>
-                        <span class="tizer-title-2">FOR kids</span>
-                    </div>
-                </a>
-            </div>
+            <div class="shipping-line"></div>
         </div>
-        <section class="container">
-            <div class="fetured-items-text">
-                <span class="fetured-tirle-1">Fetured Items</span>
-                <span class="fetured-tirle-2">Shop for items based on what we featured in this week</span>
-            </div>
-            <div class="feturedUnit">
-                <div class="parentUnit">
-                    <a href="#" class="itemUnit">
-                        <img src="img/f_item1.jpg" alt="f_item1">
-                        <div class="f-item-text">
-                            <p class="f-item-name">Mango People T-shirt</p>
-                            <p class="f-item-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="f-link-flex">
-                        <a href="#" class="cart-w"> Add to Cart</a>
-                    </div>
-                </div>
-                <div class="parentUnit">
-                    <a href="single_page.html" class="itemUnit">
-                        <img src="img/f_item2.png" alt="f_item2">
-                        <div class="f-item-text">
-                            <p class="f-item-name">Mango People T-shirt</p>
-                            <p class="f-item-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="f-link-flex">
-                        <a href="#" class="cart-w"> Add to Cart</a>
-                    </div>
-                </div>
-                <div class="parentUnit">
-                    <a href="#" class="itemUnit">
-                        <img src="img/f_item3.jpg" alt="f_item3">
-                        <div class="f-item-text">
-                            <p class="f-item-name">Mango People T-shirt</p>
-                            <p class="f-item-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="f-link-flex">
-                        <a href="#" class="cart-w"> Add to Cart</a>
-                    </div>
-                </div>
-                <div class="parentUnit">
-                    <a href="single_page.html" class="itemUnit">
-                        <img src="img/f_item4.jpg" alt="f_item4">
-                        <div class="f-item-text">
-                            <p class="f-item-name">Mango People T-shirt</p>
-                            <p class="f-item-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="f-link-flex">
-                        <a href="#" class="cart-w"> Add to Cart</a>
-                    </div>
-                </div>
-                <div class="parentUnit">
-                    <a href="single_page.html" class="itemUnit">
-                        <img src="img/f_item5.jpg" alt="f_item5">
-                        <div class="f-item-text">
-                            <p class="f-item-name">Mango People T-shirt</p>
-                            <p class="f-item-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="f-link-flex">
-                        <a href="#" class="cart-w"> Add to Cart</a>
-                    </div>
-                </div>
-                <div class="parentUnit">
-                    <a href="#" class="itemUnit">
-                        <img src="img/f_item6.png" alt="f_item6">
-                        <div class="f-item-text">
-                            <p class="f-item-name">Mango People T-shirt</p>
-                            <p class="f-item-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="f-link-flex">
-                        <a href="#" class="cart-w"> Add to Cart</a>
-                    </div>
-                </div>
-                <div class="parentUnit">
-                    <a href="#" class="itemUnit">
-                        <img src="img/f_item7.jpg" alt="f_item7">
-                        <div class="f-item-text">
-                            <p class="f-item-name">Mango People T-shirt</p>
-                            <p class="f-item-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="f-link-flex">
-                        <a href="#" class="cart-w">Add to Cart</a>
-                    </div>
-                </div>
-                <div class="parentUnit">
-                    <a href="#" class="itemUnit">
-                        <img src="img/f_item8.png" alt="f_item8">
-                        <div class="f-item-text">
-                            <p class="f-item-name">Mango People T-shirt</p>
-                            <p class="f-item-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="f-link-flex">
-                        <a href="#" class="cart-w"> Add to Cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="browse-all-product">
-                <a class="button-pink" href="product.html">Browse All Product<i class="fas fa-long-arrow-alt-right"></i></a>
-            </div>
-        </section>
-        <section class="offer-block">
-            <div class="offer-block-left">
-                <img class="offer-img" src="img/background-offer.png" alt="offer-img">
-                <h2 class="offer-title-1">30% <span>OFFER</span></h2>
-                <h3 class="offer-title-2">FOR WOMEN</h3>
-            </div>
-            <div class="offer-block-right">
-                <article class="delivery">
-                    <img class="img-form" src="img/Form_1.png" alt="form_1">
-                    <span>Free Delivery</span><br>
-                    <span class="offer-title-right-2">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span>
-                </article>
-                <article class="sales-discounts">
-                    <img class="img-form-1" src="img/Form_2.png" alt="form_2">
-                    <span>Sales & discounts</span><br>
-                    <span class="offer-title-right-2">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span>
-                </article>
-                <article class="quality-assurance">
-                    <img class="img-form" src="img/Form_3.png" alt="form_3">
-                    <span>Quality assurance</span><br>
-                    <span class="offer-title-right-2">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span>
-                </article>
-            </div>
-        </section>
+        <div class="billing_information">
+            <h3 class="shipping_title">02. BILLING INFORMATION</h3>
+            <div class="shipping-line-2"></div>
+        </div>
+        <div class="shipping_information">
+            <h3 class="shipping_title">03. SHIPPING INFORMATION</h3>
+            <div class="shipping-line-2"></div>
+        </div>
+        <div class="shipping_method">
+            <h3 class="shipping_title">04. SHIPPING METHOD</h3>
+            <div class="shipping-line-2"></div>
+        </div>
+        <div class="payment_method">
+            <h3 class="shipping_title">05. PAYMENT METHOD</h3>
+            <div class="shipping-line-2"></div>
+        </div>
+        <div class="order_review">
+            <h3 class="shipping_title">06. ORDER REVIEW</h3>
+            <div class="shipping-line-2"></div>
+        </div>
     </main>
     <footer class="footerInside">
         <div class="footer-message">

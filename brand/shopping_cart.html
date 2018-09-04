@@ -131,7 +131,6 @@
                             </div>
                         </a>
                     </div>
-
                 </div>
             </li>
             <li><a href="#">Women</a></li>
@@ -141,177 +140,101 @@
             <li><a href="#">Hot Deals</a></li>
         </ul>
     </nav>
-    <div class="slider">
-        <div class="container slider-back">
-            <div class="pink-block"></div>
-            <div class="slider-text">
-                <h2 class="brand-title-1">THE BRAND</h2>
-                <h3 class="brand-title-2">OF LUXERIOUS <span>FASHION</span></h3>
-            </div>
+    <div class="breadcrumb">
+        <div class="container breadcrumb-flex">
+            <h3 class="breadcrumb-name">New Arrivals</h3>
+            <nav class="breadcrumb-nav">
+                <ul class="breadcrumb-menu">
+                    <li><a class="not-active-title" href="#">HOME</a>/</li>
+                    <li><a class="not-active-title" href="#">MAN</a>/</li>
+                    <li><a class="active-title" href="#">NEW ARRIVALS</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
-    <main class="container">
-        <div class="tizer-block">
-            <div class="tizer-block-left">
-                <a href="#" class="hot-deal-men">
-                    <div class="ho-deal-title">
-                        <span class="tizer-title-1">hot deal</span><br>
-                        <span class="tizer-title-2">for men</span>
-                    </div>
-                </a>
-                <a href="#" class="accesories">
-                    <div class="accesories-title">
-                        <span class="tizer-title-1">LUXIROUS & trendy</span><br>
-                        <span class="tizer-title-2">ACCESORIES</span>
-                    </div>
-                </a>
+    <main class="container shopping_cart">
+        <table>
+            <tr class="th_block">
+                <th class="shop_cart_th_1">Product Details</th>
+                <th class="shop_cart_th_2">unite Price</th>
+                <th class="shop_cart_th_3">Quantity</th>
+                <th class="shop_cart_th_4">shipping</th>
+                <th class="shop_cart_th_5">Subtotal</th>
+                <th class="shop_cart_th_6">ACTION</th>
+            </tr>
+            <tr class="tr_block">
+                <td>
+                    <a class="shop_cart_table_img" href="#"><img src="img/shop_cart_img1.jpg" alt="shop_cart_img1"></a>
+                    <span class="item_table_title">Mango People T-shirt</span><br>
+                    <span class="item_spec_info">Color: <span>Red</span></span><br>
+                    <span class="item_spec_info">Size: <span>Xll</span></span>
+                </td>
+                <td class="td_unite_price">$150</td>
+                <td class="td_quatity"><a class="td_quality_ink" href="#">2</a></td>
+                <td class="td_shipping">FREE</td>
+                <td class="td_subtotal">$300</td>
+                <td class="td_action"><a href="#"><i class="fas fa-times-circle"></i></a></td>
+            </tr>
+            <tr class="tr_block">
+                <td>
+                    <a class="shop_cart_table_img" href="#"><img src="img/shop_cart_img2.jpg" alt="shop_cart_img1"></a>
+                    <span class="item_table_title">Mango People T-shirt</span><br>
+                    <span class="item_spec_info">Color: <span>Red</span></span><br>
+                    <span class="item_spec_info">Size: <span>Xll</span></span>
+                </td>
+                <td class="td_unite_price">$150</td>
+                <td class="td_quatity"><a class="td_quality_ink" href="#">2</a></td>
+                <td class="td_shipping">FREE</td>
+                <td class="td_subtotal">$300</td>
+                <td class="td_action"><a href="#"><i class="fas fa-times-circle"></i></a></td>
+            </tr>
+            <tr class="tr_block">
+                <td>
+                    <a class="shop_cart_table_img" href="#"><img src="img/shop_cart_img3.jpg" alt="shop_cart_img1"></a>
+                    <span class="item_table_title">Mango People T-shirt</span><br>
+                    <span class="item_spec_info">Color: <span>Red</span></span><br>
+                    <span class="item_spec_info">Size: <span>Xll</span></span>
+                </td>
+                <td class="td_unite_price">$150</td>
+                <td class="td_quatity"><a class="td_quality_ink" href="#">2</a></td>
+                <td class="td_shipping">FREE</td>
+                <td class="td_subtotal">$300</td>
+                <td class="td_action"><a href="#"><i class="fas fa-times-circle"></i></a></td>
+            </tr>
+        </table>
+        <div class="button_shop_cart">
+            <a class="clear_cart" href="#">cLEAR SHOPPING CART</a>
+            <a class="continue_shop" href="#">cONTINUE sHOPPING</a>
+        </div>
+        <div class="shipping_information">
+            <div class="shipping_adress">
+                <form action="#">
+                    <label class="ship_address_heading" for="ship_adress_country">Shipping Adress</label><br>
+                    <select id="ship_adress_country">
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="russia">Russia</option>
+                        <option value="united_kingdom">United Kingdom</option>
+                    </select><br>
+                    <input class="state_addr" type="text" placeholder="State"><br>
+                    <input class="post_zip_code" type="text" placeholder="Postcode / Zip"><br>
+                    <button class="get-a-quote" type="submit">get a quote</button>
+                </form>
             </div>
-            <div class="tizer-block-right">
-                <a href="#" class="offer-women">
-                    <div class="offer-women-title">
-                        <span class="tizer-title-1">30% offer</span><br>
-                        <span class="tizer-title-2">women</span>
-                    </div>
-                </a>
-                <a href="#" class="new-arrivals-kids">
-                    <div class="new-arrivals-title">
-                        <span class="tizer-title-1">new arrivals</span>
-                        <span class="tizer-title-2">FOR kids</span>
-                    </div>
-                </a>
+            <div class="coupon_discount">
+                <form action="#">
+                    <label class="ship_address_heading" for="discount">coupon discount</label>
+                    <p class="coupon_title">Enter your coupon code if you have one</p>
+                    <input class="state_addr" id="discount" type="text" placeholder="State"><br>
+                    <button class="apply_coupon" type="submit">Apply coupon</button>
+                </form>
+            </div>
+            <div class="proceed_to_checkout">
+                <p class="total_title">Sub total $900</p>
+                <p class="grand_total">GRAND TOTAL <span>$900</span></p>
+                <div class="border-line-checkout"></div>
+                <a class="button_proceed_to_checkout" href="checkout.html">proceed to checkout</a>
             </div>
         </div>
-        <section class="container">
-            <div class="fetured-items-text">
-                <span class="fetured-tirle-1">Fetured Items</span>
-                <span class="fetured-tirle-2">Shop for items based on what we featured in this week</span>
-            </div>
-            <div class="feturedUnit">
-                <div class="parentUnit">
-                    <a href="#" class="itemUnit">
-                        <img src="img/f_item1.jpg" alt="f_item1">
-                        <div class="f-item-text">
-                            <p class="f-item-name">Mango People T-shirt</p>
-                            <p class="f-item-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="f-link-flex">
-                        <a href="#" class="cart-w"> Add to Cart</a>
-                    </div>
-                </div>
-                <div class="parentUnit">
-                    <a href="single_page.html" class="itemUnit">
-                        <img src="img/f_item2.png" alt="f_item2">
-                        <div class="f-item-text">
-                            <p class="f-item-name">Mango People T-shirt</p>
-                            <p class="f-item-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="f-link-flex">
-                        <a href="#" class="cart-w"> Add to Cart</a>
-                    </div>
-                </div>
-                <div class="parentUnit">
-                    <a href="#" class="itemUnit">
-                        <img src="img/f_item3.jpg" alt="f_item3">
-                        <div class="f-item-text">
-                            <p class="f-item-name">Mango People T-shirt</p>
-                            <p class="f-item-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="f-link-flex">
-                        <a href="#" class="cart-w"> Add to Cart</a>
-                    </div>
-                </div>
-                <div class="parentUnit">
-                    <a href="single_page.html" class="itemUnit">
-                        <img src="img/f_item4.jpg" alt="f_item4">
-                        <div class="f-item-text">
-                            <p class="f-item-name">Mango People T-shirt</p>
-                            <p class="f-item-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="f-link-flex">
-                        <a href="#" class="cart-w"> Add to Cart</a>
-                    </div>
-                </div>
-                <div class="parentUnit">
-                    <a href="single_page.html" class="itemUnit">
-                        <img src="img/f_item5.jpg" alt="f_item5">
-                        <div class="f-item-text">
-                            <p class="f-item-name">Mango People T-shirt</p>
-                            <p class="f-item-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="f-link-flex">
-                        <a href="#" class="cart-w"> Add to Cart</a>
-                    </div>
-                </div>
-                <div class="parentUnit">
-                    <a href="#" class="itemUnit">
-                        <img src="img/f_item6.png" alt="f_item6">
-                        <div class="f-item-text">
-                            <p class="f-item-name">Mango People T-shirt</p>
-                            <p class="f-item-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="f-link-flex">
-                        <a href="#" class="cart-w"> Add to Cart</a>
-                    </div>
-                </div>
-                <div class="parentUnit">
-                    <a href="#" class="itemUnit">
-                        <img src="img/f_item7.jpg" alt="f_item7">
-                        <div class="f-item-text">
-                            <p class="f-item-name">Mango People T-shirt</p>
-                            <p class="f-item-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="f-link-flex">
-                        <a href="#" class="cart-w">Add to Cart</a>
-                    </div>
-                </div>
-                <div class="parentUnit">
-                    <a href="#" class="itemUnit">
-                        <img src="img/f_item8.png" alt="f_item8">
-                        <div class="f-item-text">
-                            <p class="f-item-name">Mango People T-shirt</p>
-                            <p class="f-item-price">$52.00</p>
-                        </div>
-                    </a>
-                    <div class="f-link-flex">
-                        <a href="#" class="cart-w"> Add to Cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="browse-all-product">
-                <a class="button-pink" href="product.html">Browse All Product<i class="fas fa-long-arrow-alt-right"></i></a>
-            </div>
-        </section>
-        <section class="offer-block">
-            <div class="offer-block-left">
-                <img class="offer-img" src="img/background-offer.png" alt="offer-img">
-                <h2 class="offer-title-1">30% <span>OFFER</span></h2>
-                <h3 class="offer-title-2">FOR WOMEN</h3>
-            </div>
-            <div class="offer-block-right">
-                <article class="delivery">
-                    <img class="img-form" src="img/Form_1.png" alt="form_1">
-                    <span>Free Delivery</span><br>
-                    <span class="offer-title-right-2">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span>
-                </article>
-                <article class="sales-discounts">
-                    <img class="img-form-1" src="img/Form_2.png" alt="form_2">
-                    <span>Sales & discounts</span><br>
-                    <span class="offer-title-right-2">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span>
-                </article>
-                <article class="quality-assurance">
-                    <img class="img-form" src="img/Form_3.png" alt="form_3">
-                    <span>Quality assurance</span><br>
-                    <span class="offer-title-right-2">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span>
-                </article>
-            </div>
-        </section>
     </main>
     <footer class="footerInside">
         <div class="footer-message">
