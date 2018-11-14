@@ -35,8 +35,10 @@ $(document).ready(() => {
   });
 
   // Рейтинг товара
-  $('#stars').barrating({
-    theme: 'fontawesome-stars'
+  $(function () {
+    $('#stars').barrating({
+      theme: 'fontawesome-stars'
+    });
   });
 
 });
